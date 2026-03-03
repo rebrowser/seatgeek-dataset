@@ -207,7 +207,7 @@ SeatGeek performers including teams, artists, and acts with type, taxonomy, divi
 
 
 
-> **223** total records from 2025-10-05 to 2026-03-01, **10** rows in this sample (4.5% of full dataset).
+> **223** total records from 2025-10-05 to 2026-03-01, **226** rows in this sample (101.3% of full dataset).
 > Exported as a single file, overwritten daily.
 
 ![Data Growth](performers/chart-growth.svg)
@@ -276,7 +276,7 @@ SeatGeek venues with name, full address, city, state, country, GPS coordinates, 
 
 
 
-> **161** total records from 2025-10-05 to 2026-03-01, **10** rows in this sample (6.2% of full dataset).
+> **161** total records from 2025-10-05 to 2026-03-01, **161** rows in this sample (100.0% of full dataset).
 > Exported as a single file, overwritten daily.
 
 ![Data Growth](venues/chart-growth.svg)
@@ -578,6 +578,6 @@ Commercial use requires a paid license — see [pricing](https://rebrowser.net/p
 Rebrowser is an independent data provider and is not affiliated with, endorsed by, or sponsored by SeatGeek. Any trademarks are the property of their respective owners. This dataset is compiled from publicly available information; we do not request or collect SeatGeek user credentials. By using this dataset, you agree to comply with SeatGeek's Terms of Service and all applicable laws and regulations. Images, logos, descriptions, and other materials included in this dataset remain the intellectual property of their respective owners and are provided solely for informational purposes. Rebrowser makes no warranties regarding the accuracy, completeness, or legality of the data and assumes no liability for how the data is used. You are solely responsible for ensuring that your use of this dataset does not infringe on the rights of any third party.
 
 
-You can also find this data on [Kaggle](https://www.kaggle.com/datasets/rebrowser/seatgeek-dataset), [HuggingFace](https://huggingface.co/datasets/rebrowser/seatgeek-dataset).
+You can also find this data on [Kaggle](https://www.kaggle.com/datasets/rebrowser/seatgeek-dataset), [HuggingFace](https://huggingface.co/datasets/rebrowser/seatgeek-dataset), [Zenodo](https://doi.org/10.5281/zenodo.18854665).
 
 
