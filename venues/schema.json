@@ -1,0 +1,135 @@
+[
+  {
+    "name": "_primaryKey",
+    "type": "string",
+    "description": "Unique identifier for this record",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_firstSeenAt",
+    "type": "datetime",
+    "description": "First time this record was seen",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_lastSeenAt",
+    "type": "datetime",
+    "description": "Last time this record was updated",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "venueId",
+    "type": "float",
+    "description": "Unique venue ID (e.g., 15, 181)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "name",
+    "type": "string",
+    "description": "Venue name (e.g., American Family Field, Capital One Arena)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "slug",
+    "type": "string",
+    "description": "URL-friendly slug (e.g., american-family-field)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "url",
+    "type": "string",
+    "description": "Full SeatGeek URL for the venue",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "addressStreet",
+    "type": "string",
+    "description": "Street address (e.g., 1 Brewers Way)",
+    "fillRate": 96,
+    "premium": false
+  },
+  {
+    "name": "addressCity",
+    "type": "string",
+    "description": "City name (e.g., Milwaukee)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "addressState",
+    "type": "string",
+    "description": "State/province code (e.g., WI, ON)",
+    "fillRate": 98,
+    "premium": false
+  },
+  {
+    "name": "addressCountry",
+    "type": "string",
+    "description": "Country (US, Canada, Germany, UK)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "addressPostalCode",
+    "type": "string",
+    "description": "Postal/ZIP code (e.g., 53214)",
+    "fillRate": 99,
+    "premium": false
+  },
+  {
+    "name": "timezone",
+    "type": "string",
+    "description": "IANA timezone (e.g., America/Chicago)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "latitude",
+    "type": "float",
+    "description": "Venue latitude coordinate",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "longitude",
+    "type": "float",
+    "description": "Venue longitude coordinate",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "capacity",
+    "type": "float",
+    "description": "Venue seating capacity",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "score",
+    "type": "float",
+    "description": "Venue score (0-1 scale)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "popularity",
+    "type": "float",
+    "description": "Venue popularity score (raw count)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "metroCode",
+    "type": "float",
+    "description": "Metro area code",
+    "fillRate": 100,
+    "premium": false
+  }
+]

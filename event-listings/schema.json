@@ -1,0 +1,135 @@
+[
+  {
+    "name": "_primaryKey",
+    "type": "string",
+    "description": "Unique identifier for this record",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_firstSeenAt",
+    "type": "datetime",
+    "description": "First time this record was seen",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_lastSeenAt",
+    "type": "datetime",
+    "description": "Last time this record was updated",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "listingId",
+    "type": "string",
+    "description": "Unique listing ID (e.g., qVjH2vAdbzA, 05VT8679aVX)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "eventId",
+    "type": "string",
+    "description": "Event ID this listing belongs to (join with seatgeek_events)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "price",
+    "type": "float",
+    "description": "Ticket price in dollars before fees",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "priceWithFees",
+    "type": "float",
+    "description": "Total ticket price in dollars with fees",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "fee",
+    "type": "float",
+    "description": "Fee amount in dollars",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "section",
+    "type": "string",
+    "description": "Section name/number (e.g., 101, 506WC, C129)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "sectionFull",
+    "type": "string",
+    "description": "Full section name including tier/level (e.g., Section 101, Club 129, Section 506 WC)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "row",
+    "type": "string",
+    "description": "Row within section - can be numeric (1-50+) or letter (a-z, w, h)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "quantity",
+    "type": "float",
+    "description": "Number of tickets available in this listing, typically 1-20",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "seats",
+    "type": "array",
+    "description": "Specific seat numbers if assigned, empty array if GA/unassigned",
+    "fillRate": 27,
+    "premium": false
+  },
+  {
+    "name": "inHandDate",
+    "type": "datetime",
+    "description": "Date when tickets will be in hand for delivery",
+    "fillRate": 99,
+    "premium": false
+  },
+  {
+    "name": "deliveryType",
+    "type": "string",
+    "description": "Ticket delivery method: electronic, sg_app, shipped, local",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "marketplace",
+    "type": "string",
+    "description": "Ticket marketplace/seller: exchange, open_marketplace, marketplace, open, fan_to_fan",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "dealBucket",
+    "type": "float",
+    "description": "Deal quality bucket: 0=Amazing, 1=Great, 2=Good, 3=Okay, 4-6=Price tiers, 7=Other",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "dealScore",
+    "type": "float",
+    "description": "Deal quality score 0-10, higher=better value",
+    "fillRate": 99,
+    "premium": true
+  },
+  {
+    "name": "splitType",
+    "type": "string",
+    "description": "How tickets can be split - comma-separated quantities (e.g., \"2\", \"1,2,4\")",
+    "fillRate": 100,
+    "premium": false
+  }
+]

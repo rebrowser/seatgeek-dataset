@@ -1,0 +1,310 @@
+[
+  {
+    "name": "_primaryKey",
+    "type": "string",
+    "description": "Unique identifier for this record",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_firstSeenAt",
+    "type": "datetime",
+    "description": "First time this record was seen",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_lastSeenAt",
+    "type": "datetime",
+    "description": "Last time this record was updated",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "eventId",
+    "type": "float",
+    "description": "Unique event ID (e.g., 17601982)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "name",
+    "type": "string",
+    "description": "Full event name/title (e.g., NLDS: Chicago Cubs at Milwaukee Brewers)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "shortName",
+    "type": "string",
+    "description": "Short event name (e.g., NLDS: Cubs at Brewers)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "type",
+    "type": "string",
+    "description": "Event type (mlb, nba, nhl, nfl, stadium_tours, etc.)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "datetimeUtc",
+    "type": "datetime",
+    "description": "Event UTC datetime",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "endDatetimeUtc",
+    "type": "datetime",
+    "description": "Event end datetime (UTC)",
+    "fillRate": 97,
+    "premium": false
+  },
+  {
+    "name": "dateTbd",
+    "type": "bool",
+    "description": "Event date is TBD (to be determined)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "timeTbd",
+    "type": "bool",
+    "description": "Event time is TBD",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "datetimeTbd",
+    "type": "bool",
+    "description": "Event datetime is TBD",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "status",
+    "type": "string",
+    "description": "Event status (normal, postponed, cancelled)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "scheduleStatus",
+    "type": "string",
+    "description": "Schedule status (as_originally_scheduled, rescheduled)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "conditional",
+    "type": "bool",
+    "description": "Event is conditional (e.g., playoff games)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "contingent",
+    "type": "bool",
+    "description": "Event is contingent on other events",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "isOpen",
+    "type": "bool",
+    "description": "Event is open for ticket sales",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "isVisible",
+    "type": "bool",
+    "description": "Event is visible on site",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "isHybrid",
+    "type": "bool",
+    "description": "Event is a hybrid event",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "eventScore",
+    "type": "float",
+    "description": "Event score/rank (0-1 scale)",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "popularityScore",
+    "type": "float",
+    "description": "Event popularity score (0-1 scale)",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "url",
+    "type": "string",
+    "description": "Full SeatGeek URL for the event",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "createdAt",
+    "type": "datetime",
+    "description": "Event creation timestamp",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "announceDate",
+    "type": "datetime",
+    "description": "Event announcement date",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "visibleAt",
+    "type": "datetime",
+    "description": "When event became visible",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "visibleUntilUtc",
+    "type": "datetime",
+    "description": "When event stops being visible (UTC)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "listingCount",
+    "type": "float",
+    "description": "Number of active ticket listings",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "ticketCount",
+    "type": "float",
+    "description": "Total tickets available across listings",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "averagePrice",
+    "type": "float",
+    "description": "Average ticket price in dollars",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "lowestPrice",
+    "type": "float",
+    "description": "Lowest ticket price in dollars",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "highestPrice",
+    "type": "float",
+    "description": "Highest ticket price in dollars",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "medianPrice",
+    "type": "float",
+    "description": "Median ticket price in dollars",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "lowestSgBasePrice",
+    "type": "float",
+    "description": "Lowest SeatGeek base price in dollars",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "venueId",
+    "type": "float",
+    "description": "Venue ID (join with seatgeek_venues)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "performerIds",
+    "type": "array",
+    "description": "Performer IDs (join with seatgeek_performers)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "taxonomyName",
+    "type": "string",
+    "description": "Top-level category (sports, concerts, theater)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "taxonomySubName",
+    "type": "string",
+    "description": "Sub-category (baseball, basketball, hockey, football)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "ticketmasterId",
+    "type": "string",
+    "description": "Ticketmaster event ID (for cross-platform matching)",
+    "fillRate": 42,
+    "premium": false
+  },
+  {
+    "name": "stubhubId",
+    "type": "string",
+    "description": "StubHub event ID (for cross-platform matching)",
+    "fillRate": 61,
+    "premium": false
+  },
+  {
+    "name": "integratedProvider",
+    "type": "string",
+    "description": "Integrated ticket provider (OPEN, TICKETMASTER, TDC)",
+    "fillRate": 62,
+    "premium": false
+  },
+  {
+    "name": "integratedProviderId",
+    "type": "string",
+    "description": "Provider-specific event ID",
+    "fillRate": 62,
+    "premium": false
+  },
+  {
+    "name": "isMapped",
+    "type": "bool",
+    "description": "Venue has seat map available",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "isGa",
+    "type": "bool",
+    "description": "Event is general admission",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "seatSelectionEnabled",
+    "type": "bool",
+    "description": "Seat selection is enabled",
+    "fillRate": 100,
+    "premium": false
+  }
+]

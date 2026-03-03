@@ -1,0 +1,149 @@
+[
+  {
+    "name": "_primaryKey",
+    "type": "string",
+    "description": "Unique identifier for this record",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_firstSeenAt",
+    "type": "datetime",
+    "description": "First time this record was seen",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_lastSeenAt",
+    "type": "datetime",
+    "description": "Last time this record was updated",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "performerId",
+    "type": "float",
+    "description": "Unique performer ID (e.g., 11, 793010)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "name",
+    "type": "string",
+    "description": "Full performer name (e.g., Chicago Cubs, MLB Postseason)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "shortName",
+    "type": "string",
+    "description": "Short name (e.g., Cubs, Dodgers)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "type",
+    "type": "string",
+    "description": "Performer type (mlb, nba, nhl, nfl, etc.)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "slug",
+    "type": "string",
+    "description": "URL-friendly slug (e.g., chicago-cubs)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "url",
+    "type": "string",
+    "description": "Full SeatGeek URL for the performer",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "heroImageUrl",
+    "type": "string",
+    "description": "Hero/large image URL",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "bannerImageUrl",
+    "type": "string",
+    "description": "Banner image URL",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "score",
+    "type": "float",
+    "description": "Performer score (0-1 scale)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "popularity",
+    "type": "float",
+    "description": "Performer popularity score (raw count)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "homeVenueId",
+    "type": "float",
+    "description": "Home venue ID (for teams)",
+    "fillRate": 59,
+    "premium": false
+  },
+  {
+    "name": "primaryColor",
+    "type": "string",
+    "description": "Primary brand color hex (e.g., #0E3386)",
+    "fillRate": 58,
+    "premium": false
+  },
+  {
+    "name": "iconicColor",
+    "type": "string",
+    "description": "Iconic brand color hex",
+    "fillRate": 58,
+    "premium": false
+  },
+  {
+    "name": "isEvent",
+    "type": "bool",
+    "description": "Is an event/competition performer (e.g., playoffs, series)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "divisionName",
+    "type": "string",
+    "description": "Division display name (e.g., National League Central)",
+    "fillRate": 56,
+    "premium": false
+  },
+  {
+    "name": "divisionShortName",
+    "type": "string",
+    "description": "Division short name (e.g., NL Central)",
+    "fillRate": 56,
+    "premium": false
+  },
+  {
+    "name": "taxonomyName",
+    "type": "string",
+    "description": "Top-level category (sports, concerts, theater)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "taxonomySubName",
+    "type": "string",
+    "description": "Sub-category (baseball, basketball, hockey, football)",
+    "fillRate": 99,
+    "premium": false
+  }
+]
