@@ -59,7 +59,7 @@
     "name": "endDatetimeUtc",
     "type": "datetime",
     "description": "Event end datetime (UTC)",
-    "fillRate": 97,
+    "fillRate": 96,
     "premium": false
   },
   {
@@ -276,14 +276,14 @@
     "name": "integratedProvider",
     "type": "string",
     "description": "Integrated ticket provider (OPEN, TICKETMASTER, TDC)",
-    "fillRate": 62,
+    "fillRate": 63,
     "premium": false
   },
   {
     "name": "integratedProviderId",
     "type": "string",
     "description": "Provider-specific event ID",
-    "fillRate": 62,
+    "fillRate": 63,
     "premium": false
   },
   {
