@@ -101,14 +101,14 @@
     "name": "primaryColor",
     "type": "string",
     "description": "Primary brand color hex (e.g., #0E3386)",
-    "fillRate": 58,
+    "fillRate": 57,
     "premium": false
   },
   {
     "name": "iconicColor",
     "type": "string",
     "description": "Iconic brand color hex",
-    "fillRate": 58,
+    "fillRate": 57,
     "premium": false
   },
   {
