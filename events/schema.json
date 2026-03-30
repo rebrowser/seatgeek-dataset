@@ -59,7 +59,7 @@
     "name": "endDatetimeUtc",
     "type": "datetime",
     "description": "Event end datetime (UTC)",
-    "fillRate": 95,
+    "fillRate": 94,
     "premium": false
   },
   {
@@ -269,7 +269,7 @@
     "name": "stubhubId",
     "type": "string",
     "description": "StubHub event ID (for cross-platform matching)",
-    "fillRate": 61,
+    "fillRate": 63,
     "premium": false
   },
   {
