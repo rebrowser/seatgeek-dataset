@@ -262,7 +262,7 @@
     "name": "ticketmasterId",
     "type": "string",
     "description": "Ticketmaster event ID (for cross-platform matching)",
-    "fillRate": 41,
+    "fillRate": 40,
     "premium": false
   },
   {
@@ -276,14 +276,14 @@
     "name": "integratedProvider",
     "type": "string",
     "description": "Integrated ticket provider (OPEN, TICKETMASTER, TDC)",
-    "fillRate": 63,
+    "fillRate": 64,
     "premium": false
   },
   {
     "name": "integratedProviderId",
     "type": "string",
     "description": "Provider-specific event ID",
-    "fillRate": 63,
+    "fillRate": 64,
     "premium": false
   },
   {

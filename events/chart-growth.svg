@@ -27,13 +27,13 @@
           rx="1" fill="#22c55eb3" />
   <rect x="179" y="231" width="28" height="9"
           rx="1" fill="#22c55eb3" />
-  <rect x="209" y="232" width="28" height="8"
+  <rect x="209" y="233" width="28" height="7"
           rx="1" fill="#22c55eb3" />
-  <rect x="239" y="230" width="28" height="10"
+  <rect x="239" y="231" width="28" height="9"
           rx="1" fill="#22c55eb3" />
   <rect x="269" y="231" width="28" height="9"
           rx="1" fill="#22c55eb3" />
-  <rect x="299" y="231" width="28" height="9"
+  <rect x="299" y="232" width="28" height="8"
           rx="1" fill="#22c55eb3" />
   <rect x="329" y="233" width="28" height="7"
           rx="1" fill="#22c55eb3" />
@@ -43,7 +43,7 @@
           rx="1" fill="#22c55eb3" />
   <rect x="419" y="232" width="28" height="8"
           rx="1" fill="#22c55eb3" />
-  <rect x="449" y="231" width="28" height="9"
+  <rect x="449" y="232" width="28" height="8"
           rx="1" fill="#22c55eb3" />
   <rect x="479" y="231" width="28" height="9"
           rx="1" fill="#22c55eb3" />
@@ -65,12 +65,12 @@
           rx="1" fill="#22c55eb3" />
   <rect x="749" y="227" width="28" height="13"
           rx="1" fill="#22c55eb3" />
-  <rect x="779" y="228" width="28" height="12"
+  <rect x="779" y="229" width="28" height="11"
           rx="1" fill="#22c55eb3" />
   <rect x="809" y="73" width="28" height="167"
           rx="1" fill="#22c55eb3" />
   <!-- line (Total, left axis) -->
-  <polyline points="73,240 103,234 133,230 163,226 193,221 223,217 253,213 283,208 313,204 343,200 373,197 403,193 433,188 463,184 493,180 523,176 553,171 583,169 613,167 643,165 673,159 703,152 733,147 763,140 793,134 823,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+  <polyline points="73,240 103,234 133,230 163,226 193,221 223,217 253,213 283,208 313,204 343,200 373,197 403,193 433,189 463,185 493,180 523,176 553,172 583,169 613,168 643,165 673,159 703,153 733,147 763,141 793,135 823,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
   <!-- left y-axis labels (Total) -->
   <text x="52" y="56" text-anchor="end"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
