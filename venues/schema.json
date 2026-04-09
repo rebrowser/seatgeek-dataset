@@ -80,7 +80,7 @@
     "name": "addressPostalCode",
     "type": "string",
     "description": "Postal/ZIP code (e.g., 53214)",
-    "fillRate": 99,
+    "fillRate": 98,
     "premium": false
   },
   {
