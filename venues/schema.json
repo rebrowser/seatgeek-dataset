@@ -73,7 +73,7 @@
     "name": "addressCountry",
     "type": "string",
     "description": "Country (US, Canada, Germany, UK)",
-    "fillRate": 100,
+    "fillRate": 99,
     "premium": false
   },
   {
