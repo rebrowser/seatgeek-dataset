@@ -262,7 +262,7 @@
     "name": "ticketmasterId",
     "type": "string",
     "description": "Ticketmaster event ID (for cross-platform matching)",
-    "fillRate": 40,
+    "fillRate": 39,
     "premium": false
   },
   {
