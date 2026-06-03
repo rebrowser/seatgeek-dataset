@@ -66,7 +66,7 @@
     "name": "addressState",
     "type": "string",
     "description": "State/province code (e.g., WI, ON)",
-    "fillRate": 98,
+    "fillRate": 97,
     "premium": false
   },
   {

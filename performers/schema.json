@@ -101,14 +101,14 @@
     "name": "primaryColor",
     "type": "string",
     "description": "Primary brand color hex (e.g., #0E3386)",
-    "fillRate": 57,
+    "fillRate": 55,
     "premium": false
   },
   {
     "name": "iconicColor",
     "type": "string",
     "description": "Iconic brand color hex",
-    "fillRate": 57,
+    "fillRate": 55,
     "premium": false
   },
   {
@@ -122,14 +122,14 @@
     "name": "divisionName",
     "type": "string",
     "description": "Division display name (e.g., National League Central)",
-    "fillRate": 54,
+    "fillRate": 53,
     "premium": false
   },
   {
     "name": "divisionShortName",
     "type": "string",
     "description": "Division short name (e.g., NL Central)",
-    "fillRate": 54,
+    "fillRate": 53,
     "premium": false
   },
   {
@@ -143,7 +143,7 @@
     "name": "taxonomySubName",
     "type": "string",
     "description": "Sub-category (baseball, basketball, hockey, football)",
-    "fillRate": 99,
+    "fillRate": 98,
     "premium": false
   }
 ]

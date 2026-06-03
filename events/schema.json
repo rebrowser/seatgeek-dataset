@@ -59,7 +59,7 @@
     "name": "endDatetimeUtc",
     "type": "datetime",
     "description": "Event end datetime (UTC)",
-    "fillRate": 91,
+    "fillRate": 93,
     "premium": false
   },
   {
@@ -262,28 +262,28 @@
     "name": "ticketmasterId",
     "type": "string",
     "description": "Ticketmaster event ID (for cross-platform matching)",
-    "fillRate": 39,
+    "fillRate": 42,
     "premium": false
   },
   {
     "name": "stubhubId",
     "type": "string",
     "description": "StubHub event ID (for cross-platform matching)",
-    "fillRate": 63,
+    "fillRate": 59,
     "premium": false
   },
   {
     "name": "integratedProvider",
     "type": "string",
     "description": "Integrated ticket provider (OPEN, TICKETMASTER, TDC)",
-    "fillRate": 63,
+    "fillRate": 66,
     "premium": false
   },
   {
     "name": "integratedProviderId",
     "type": "string",
     "description": "Provider-specific event ID",
-    "fillRate": 63,
+    "fillRate": 66,
     "premium": false
   },
   {
