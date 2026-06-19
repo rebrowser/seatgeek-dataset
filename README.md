@@ -1,6 +1,6 @@
 # SeatGeek Events & Ticket Listings Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--06--18-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-31.4M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/seatgeek)
+![Updated](https://img.shields.io/badge/updated-2026--06--19-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-31.4M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/seatgeek)
 
 Daily sample of SeatGeek events, ticket listings, performers, and venues with Deal Score ratings, section-level seating, delivery types, and cross-platform IDs.
 
@@ -21,7 +21,7 @@ Daily sample of SeatGeek events with type, taxonomy, venue and performer IDs, sc
 
 
 
-> **8,700** total records from 2025-10-05 to 2026-06-14, **up to 8,700** rows in this sample (100.0% of full dataset).
+> **8,702** total records from 2025-10-05 to 2026-06-14, **up to 8,702** rows in this sample (100.0% of full dataset).
 > Exported as one file per day, up to 1,000 rows each, last 30 days retained.
 
 ![Data Growth](events/chart-growth.svg)
@@ -89,7 +89,7 @@ Daily sample of SeatGeek events with type, taxonomy, venue and performer IDs, sc
 | Value | Count | Share |
 | --- | --- | --- |
 | mlb | 2,985 | `███████░░░░░░░░░░░░░` 34.3% |
-| stadium_tours | 1,707 | `████░░░░░░░░░░░░░░░░` 19.6% |
+| stadium_tours | 1,709 | `████░░░░░░░░░░░░░░░░` 19.6% |
 | nba | 1,682 | `████░░░░░░░░░░░░░░░░` 19.3% |
 | nhl | 1,635 | `████░░░░░░░░░░░░░░░░` 18.8% |
 | nfl | 688 | `██░░░░░░░░░░░░░░░░░░` 7.9% |
@@ -104,7 +104,7 @@ Daily sample of SeatGeek events with type, taxonomy, venue and performer IDs, sc
 
 | Value | Count | Share |
 | --- | --- | --- |
-| sports | 8,700 | `████████████████████` 100.0% |
+| sports | 8,702 | `████████████████████` 100.0% |
 
 </details>
 
@@ -115,7 +115,7 @@ Daily sample of SeatGeek events with type, taxonomy, venue and performer IDs, sc
 
 | Value | Count | Share |
 | --- | --- | --- |
-| normal | 8,700 | `████████████████████` 100.0% |
+| normal | 8,702 | `████████████████████` 100.0% |
 
 </details>
 
@@ -207,7 +207,7 @@ SeatGeek performers including teams, artists, and acts with type, taxonomy, divi
 
 
 
-> **236** total records from 2025-10-05 to 2026-06-14, **236** rows in this sample (100.0% of full dataset).
+> **236** total records from 2025-10-05 to 2026-06-14, **237** rows in this sample (100.4% of full dataset).
 > Exported as a single file, overwritten daily.
 
 ![Data Growth](performers/chart-growth.svg)
@@ -276,7 +276,7 @@ SeatGeek venues with name, full address, city, state, country, GPS coordinates, 
 
 
 
-> **173** total records from 2025-10-12 to 2026-06-14, **173** rows in this sample (100.0% of full dataset).
+> **173** total records from 2025-10-12 to 2026-06-14, **175** rows in this sample (101.2% of full dataset).
 > Exported as a single file, overwritten daily.
 
 ![Data Growth](venues/chart-growth.svg)
@@ -340,7 +340,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Events
 
 
-[Events with Pricing Data](https://rebrowser.net/products/datasets/seatgeek/events/views/events-with-pricing-data) — 6,380 records
+[Events with Pricing Data](https://rebrowser.net/products/datasets/seatgeek/events/views/events-with-pricing-data) — 6,403 records
 
 ↳ `[{"field":"averagePrice","op":"gt","value":0},{"sort":"averagePrice DESC"}]`
 
@@ -356,7 +356,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"type","op":"is","value":"mlb"},{"sort":"datetimeUtc ASC"}]`
 
-[NBA Basketball Events](https://rebrowser.net/products/datasets/seatgeek/events/views/nba-events) — 1,652 records
+[NBA Basketball Events](https://rebrowser.net/products/datasets/seatgeek/events/views/nba-events) — 1,653 records
 
 ↳ `[{"field":"type","op":"is","value":"nba"},{"sort":"datetimeUtc ASC"}]`
 
