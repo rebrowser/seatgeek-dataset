@@ -94,21 +94,21 @@
     "name": "homeVenueId",
     "type": "float",
     "description": "Home venue ID (for teams)",
-    "fillRate": 57,
+    "fillRate": 56,
     "premium": false
   },
   {
     "name": "primaryColor",
     "type": "string",
     "description": "Primary brand color hex (e.g., #0E3386)",
-    "fillRate": 55,
+    "fillRate": 54,
     "premium": false
   },
   {
     "name": "iconicColor",
     "type": "string",
     "description": "Iconic brand color hex",
-    "fillRate": 55,
+    "fillRate": 54,
     "premium": false
   },
   {
