@@ -122,14 +122,14 @@
     "name": "divisionName",
     "type": "string",
     "description": "Division display name (e.g., National League Central)",
-    "fillRate": 52,
+    "fillRate": 51,
     "premium": false
   },
   {
     "name": "divisionShortName",
     "type": "string",
     "description": "Division short name (e.g., NL Central)",
-    "fillRate": 52,
+    "fillRate": 51,
     "premium": false
   },
   {
