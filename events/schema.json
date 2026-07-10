@@ -59,7 +59,7 @@
     "name": "endDatetimeUtc",
     "type": "datetime",
     "description": "Event end datetime (UTC)",
-    "fillRate": 93,
+    "fillRate": 94,
     "premium": false
   },
   {
