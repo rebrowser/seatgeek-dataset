@@ -87,7 +87,7 @@
     "name": "seats",
     "type": "array",
     "description": "Specific seat numbers if assigned, empty array if GA/unassigned",
-    "fillRate": 29,
+    "fillRate": 27,
     "premium": false
   },
   {
