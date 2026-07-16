@@ -269,21 +269,21 @@
     "name": "stubhubId",
     "type": "string",
     "description": "StubHub event ID (for cross-platform matching)",
-    "fillRate": 58,
+    "fillRate": 57,
     "premium": false
   },
   {
     "name": "integratedProvider",
     "type": "string",
     "description": "Integrated ticket provider (OPEN, TICKETMASTER, TDC)",
-    "fillRate": 66,
+    "fillRate": 67,
     "premium": false
   },
   {
     "name": "integratedProviderId",
     "type": "string",
     "description": "Provider-specific event ID",
-    "fillRate": 66,
+    "fillRate": 67,
     "premium": false
   },
   {
