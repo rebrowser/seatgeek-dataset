@@ -59,7 +59,7 @@
     "name": "endDatetimeUtc",
     "type": "datetime",
     "description": "Event end datetime (UTC)",
-    "fillRate": 86,
+    "fillRate": 85,
     "premium": false
   },
   {
@@ -262,7 +262,7 @@
     "name": "ticketmasterId",
     "type": "string",
     "description": "Ticketmaster event ID (for cross-platform matching)",
-    "fillRate": 37,
+    "fillRate": 38,
     "premium": false
   },
   {
