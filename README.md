@@ -1,6 +1,6 @@
 # SeatGeek Events & Ticket Listings Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--07--21-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-57.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/seatgeek)
+![Updated](https://img.shields.io/badge/updated-2026--07--22-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-57.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/seatgeek)
 
 Daily sample of SeatGeek events, ticket listings, performers, and venues with Deal Score ratings, section-level seating, delivery types, and cross-platform IDs.
 
@@ -340,7 +340,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Events
 
 
-[Events with Pricing Data](https://rebrowser.net/products/datasets/seatgeek/events/views/events-with-pricing-data) — 6,841 records
+[Events with Pricing Data](https://rebrowser.net/products/datasets/seatgeek/events/views/events-with-pricing-data) — 6,870 records
 
 ↳ `[{"field":"averagePrice","op":"gt","value":0},{"sort":"averagePrice DESC"}]`
 
@@ -348,15 +348,15 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"taxonomyName","op":"is","value":"sports"},{"sort":"datetimeUtc ASC"}]`
 
-[Events Open for Ticket Sales](https://rebrowser.net/products/datasets/seatgeek/events/views/open-for-sale-events) — 1,619 records
+[Events Open for Ticket Sales](https://rebrowser.net/products/datasets/seatgeek/events/views/open-for-sale-events) — 1,623 records
 
 ↳ `[{"field":"isOpen","op":"isTrue"},{"sort":"datetimeUtc ASC"}]`
 
-[MLB Baseball Events](https://rebrowser.net/products/datasets/seatgeek/events/views/mlb-events) — 1,901 records
+[MLB Baseball Events](https://rebrowser.net/products/datasets/seatgeek/events/views/mlb-events) — 1,925 records
 
 ↳ `[{"field":"type","op":"is","value":"mlb"},{"sort":"datetimeUtc ASC"}]`
 
-[NBA Basketball Events](https://rebrowser.net/products/datasets/seatgeek/events/views/nba-events) — 1,670 records
+[NBA Basketball Events](https://rebrowser.net/products/datasets/seatgeek/events/views/nba-events) — 1,671 records
 
 ↳ `[{"field":"type","op":"is","value":"nba"},{"sort":"datetimeUtc ASC"}]`
 
@@ -368,23 +368,23 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Event Listings
 
 
-[Listings with Deal Score](https://rebrowser.net/products/datasets/seatgeek/event-listings/views/listings-with-deal-score) — 49,619,786 records
+[Listings with Deal Score](https://rebrowser.net/products/datasets/seatgeek/event-listings/views/listings-with-deal-score) — 50,035,969 records
 
 ↳ `[{"field":"dealScore","op":"gt","value":0},{"sort":"dealScore DESC"}]`
 
-[Best Deal Listings (Deal Score 8+)](https://rebrowser.net/products/datasets/seatgeek/event-listings/views/best-deal-listings) — 21,624,668 records
+[Best Deal Listings (Deal Score 8+)](https://rebrowser.net/products/datasets/seatgeek/event-listings/views/best-deal-listings) — 21,819,520 records
 
 ↳ `[{"field":"dealScore","op":"gte","value":8},{"sort":"dealScore DESC"}]`
 
-[Listings by Price (Low to High)](https://rebrowser.net/products/datasets/seatgeek/event-listings/views/listings-by-price-low) — 49,539,056 records
+[Listings by Price (Low to High)](https://rebrowser.net/products/datasets/seatgeek/event-listings/views/listings-by-price-low) — 50,408,487 records
 
 ↳ `[{"sort":"price ASC"}]`
 
-[Listings by Price (High to Low)](https://rebrowser.net/products/datasets/seatgeek/event-listings/views/listings-by-price-high) — 49,486,753 records
+[Listings by Price (High to Low)](https://rebrowser.net/products/datasets/seatgeek/event-listings/views/listings-by-price-high) — 50,035,969 records
 
 ↳ `[{"sort":"price DESC"}]`
 
-[Electronic Delivery Listings](https://rebrowser.net/products/datasets/seatgeek/event-listings/views/electronic-delivery-listings) — 40,352,125 records
+[Electronic Delivery Listings](https://rebrowser.net/products/datasets/seatgeek/event-listings/views/electronic-delivery-listings) — 40,635,968 records
 
 ↳ `[{"field":"deliveryType","op":"is","value":"electronic"},{"sort":"price ASC"}]`
 
@@ -396,7 +396,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Performers
 
 
-[Sports Performers](https://rebrowser.net/products/datasets/seatgeek/performers/views/sports-performers) — 101 records
+[Sports Performers](https://rebrowser.net/products/datasets/seatgeek/performers/views/sports-performers) — 97 records
 
 ↳ `[{"field":"taxonomyName","op":"is","value":"sports"},{"sort":"name ASC"}]`
 
@@ -428,7 +428,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"capacity","op":"gt","value":0},{"sort":"capacity DESC"}]`
 
-[Venues in United States](https://rebrowser.net/products/datasets/seatgeek/venues/views/venues-united-states) — 60 records
+[Venues in United States](https://rebrowser.net/products/datasets/seatgeek/venues/views/venues-united-states) — 61 records
 
 ↳ `[{"field":"addressCountry","op":"is","value":"US"},{"sort":"addressState ASC"}]`
 
