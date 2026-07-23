@@ -17,39 +17,39 @@
   <line x1="58" y1="236" x2="848" y2="236"
            stroke="#e1e4e8" stroke-width="1" stroke-dasharray="4,3" />
   <!-- bars (Added, right axis) -->
-  <rect x="60" y="132" width="63" height="108"
+  <rect x="60" y="134" width="63" height="106"
           rx="1" fill="#22c55eb3" />
   <rect x="125" y="89" width="63" height="151"
           rx="1" fill="#22c55eb3" />
-  <rect x="190" y="73" width="63" height="167"
+  <rect x="190" y="76" width="63" height="164"
           rx="1" fill="#22c55eb3" />
-  <rect x="255" y="80" width="63" height="160"
+  <rect x="255" y="83" width="63" height="157"
           rx="1" fill="#22c55eb3" />
-  <rect x="320" y="81" width="63" height="159"
+  <rect x="320" y="84" width="63" height="156"
           rx="1" fill="#22c55eb3" />
-  <rect x="385" y="111" width="63" height="129"
+  <rect x="385" y="114" width="63" height="126"
           rx="1" fill="#22c55eb3" />
-  <rect x="450" y="74" width="63" height="166"
+  <rect x="450" y="73" width="63" height="167"
           rx="1" fill="#22c55eb3" />
-  <rect x="515" y="134" width="63" height="106"
+  <rect x="515" y="135" width="63" height="105"
           rx="1" fill="#22c55eb3" />
-  <rect x="580" y="164" width="63" height="76"
+  <rect x="580" y="140" width="63" height="100"
           rx="1" fill="#22c55eb3" />
-  <rect x="645" y="110" width="63" height="130"
+  <rect x="645" y="99" width="63" height="141"
           rx="1" fill="#22c55eb3" />
-  <rect x="710" y="104" width="63" height="136"
+  <rect x="710" y="74" width="63" height="166"
           rx="1" fill="#22c55eb3" />
-  <rect x="775" y="217" width="63" height="23"
+  <rect x="775" y="166" width="63" height="74"
           rx="1" fill="#22c55eb3" />
   <!-- line (Total, left axis) -->
-  <polyline points="91,240 156,220 221,197 286,175 351,154 416,136 481,114 546,99 611,89 676,72 741,53 806,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+  <polyline points="91,240 156,221 221,200 286,180 351,161 416,145 481,124 546,111 611,98 676,80 741,59 806,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
   <!-- left y-axis labels (Total) -->
   <text x="52" y="56" text-anchor="end"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
-           >58M</text>
+           >61M</text>
   <text x="52" y="149" text-anchor="end"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
-           >41M</text>
+           >42M</text>
   <text x="52" y="240" text-anchor="end"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
            >23M</text>

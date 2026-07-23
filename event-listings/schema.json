@@ -87,14 +87,14 @@
     "name": "seats",
     "type": "array",
     "description": "Specific seat numbers if assigned, empty array if GA/unassigned",
-    "fillRate": 24,
+    "fillRate": 25,
     "premium": false
   },
   {
     "name": "inHandDate",
     "type": "datetime",
     "description": "Date when tickets will be in hand for delivery",
-    "fillRate": 98,
+    "fillRate": 97,
     "premium": false
   },
   {
