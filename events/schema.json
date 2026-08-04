@@ -276,14 +276,14 @@
     "name": "integratedProvider",
     "type": "string",
     "description": "Integrated ticket provider (OPEN, TICKETMASTER, TDC)",
-    "fillRate": 56,
+    "fillRate": 55,
     "premium": false
   },
   {
     "name": "integratedProviderId",
     "type": "string",
     "description": "Provider-specific event ID",
-    "fillRate": 56,
+    "fillRate": 55,
     "premium": false
   },
   {
