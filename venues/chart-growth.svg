@@ -33,9 +33,9 @@
           rx="1" fill="#22c55eb3" />
   <rect x="381" y="237" width="44" height="3"
           rx="1" fill="#22c55eb3" />
-  <rect x="427" y="237" width="44" height="3"
+  <rect x="427" y="239" width="44" height="1"
           rx="1" fill="#22c55eb3" />
-  <rect x="473" y="237" width="44" height="3"
+  <rect x="473" y="239" width="44" height="1"
           rx="1" fill="#22c55eb3" />
   <rect x="519" y="237" width="44" height="3"
           rx="1" fill="#22c55eb3" />
@@ -52,7 +52,7 @@
   <rect x="795" y="73" width="44" height="167"
           rx="1" fill="#22c55eb3" />
   <!-- line (Total, left axis) -->
-  <polyline points="81,240 127,239 173,238 219,222 265,210 311,206 357,204 403,202 449,200 495,197 541,195 587,194 633,193 679,189 725,187 771,186 817,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+  <polyline points="81,240 127,239 173,238 219,222 265,210 311,206 357,204 403,202 449,201 495,200 541,197 587,196 633,195 679,192 725,189 771,188 817,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
   <!-- left y-axis labels (Total) -->
   <text x="52" y="56" text-anchor="end"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
@@ -66,10 +66,10 @@
   <!-- right y-axis labels (Added) -->
   <text x="854" y="56" text-anchor="start"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#22c55e"
-           >121</text>
+           >123</text>
   <text x="854" y="149" text-anchor="start"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#22c55e"
-           >61</text>
+           >62</text>
   <text x="854" y="240" text-anchor="start"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#22c55e"
            >0</text>
