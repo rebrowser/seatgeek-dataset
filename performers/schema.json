@@ -94,7 +94,7 @@
     "name": "homeVenueId",
     "type": "float",
     "description": "Home venue ID (for teams)",
-    "fillRate": 55,
+    "fillRate": 54,
     "premium": false
   },
   {
