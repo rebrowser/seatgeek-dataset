@@ -269,7 +269,7 @@
     "name": "stubhubId",
     "type": "string",
     "description": "StubHub event ID (for cross-platform matching)",
-    "fillRate": 39,
+    "fillRate": 38,
     "premium": false
   },
   {
