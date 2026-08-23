@@ -60,24 +60,24 @@
   <rect x="800" y="73" width="35" height="167"
           rx="1" fill="#22c55eb3" />
   <!-- line (Total, left axis) -->
-  <polyline points="77,240 114,239 151,238 188,231 225,230 262,229 299,228 336,226 373,223 410,222 447,221 484,219 521,215 558,213 595,211 632,209 669,206 706,202 743,198 780,196 817,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+  <polyline points="77,240 114,239 151,238 188,231 225,230 262,229 299,228 336,226 373,223 410,223 447,221 484,219 521,215 558,213 595,212 632,209 669,206 706,202 743,199 780,196 817,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
   <!-- left y-axis labels (Total) -->
   <text x="52" y="56" text-anchor="end"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
-           >254</text>
+           >255</text>
   <text x="52" y="149" text-anchor="end"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
-           >151</text>
+           >152</text>
   <text x="52" y="240" text-anchor="end"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
            >48</text>
   <!-- right y-axis labels (Added) -->
   <text x="854" y="56" text-anchor="start"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#22c55e"
-           >158</text>
+           >159</text>
   <text x="854" y="149" text-anchor="start"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#22c55e"
-           >79</text>
+           >80</text>
   <text x="854" y="240" text-anchor="start"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#22c55e"
            >0</text>
