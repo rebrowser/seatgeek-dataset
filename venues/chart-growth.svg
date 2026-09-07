@@ -17,9 +17,9 @@
   <line x1="58" y1="236" x2="848" y2="236"
            stroke="#e1e4e8" stroke-width="1" stroke-dasharray="4,3" />
   <!-- bars (Added, right axis) -->
-  <rect x="59" y="222" width="50" height="18"
+  <rect x="59" y="223" width="50" height="17"
           rx="1" fill="#22c55eb3" />
-  <rect x="111" y="226" width="50" height="14"
+  <rect x="111" y="227" width="50" height="13"
           rx="1" fill="#22c55eb3" />
   <rect x="163" y="239" width="50" height="1"
           rx="1" fill="#22c55eb3" />
@@ -48,24 +48,24 @@
   <rect x="787" y="73" width="50" height="167"
           rx="1" fill="#22c55eb3" />
   <!-- line (Total, left axis) -->
-  <polyline points="84,240 136,227 188,225 240,224 292,222 344,221 396,219 448,218 500,216 552,213 604,210 656,209 708,207 760,205 812,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+  <polyline points="84,240 136,228 188,227 240,226 292,223 344,222 396,221 448,220 500,217 552,215 604,211 656,210 708,209 760,206 812,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
   <!-- left y-axis labels (Total) -->
   <text x="52" y="56" text-anchor="end"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
            >188</text>
   <text x="52" y="149" text-anchor="end"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
-           >110</text>
+           >109</text>
   <text x="52" y="240" text-anchor="end"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
-           >31</text>
+           >30</text>
   <!-- right y-axis labels (Added) -->
   <text x="854" y="56" text-anchor="start"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#22c55e"
-           >128</text>
+           >130</text>
   <text x="854" y="149" text-anchor="start"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#22c55e"
-           >64</text>
+           >65</text>
   <text x="854" y="240" text-anchor="start"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#22c55e"
            >0</text>
@@ -91,5 +91,5 @@
            >Aug 16</text>
   <text x="812" y="256" text-anchor="middle"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
-           >Aug 30</text>
+           >Sep 6</text>
 </svg>
