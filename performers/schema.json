@@ -94,7 +94,7 @@
     "name": "homeVenueId",
     "type": "float",
     "description": "Home venue ID (for teams)",
-    "fillRate": 54,
+    "fillRate": 56,
     "premium": false
   },
   {
@@ -122,14 +122,14 @@
     "name": "divisionName",
     "type": "string",
     "description": "Division display name (e.g., National League Central)",
-    "fillRate": 49,
+    "fillRate": 48,
     "premium": false
   },
   {
     "name": "divisionShortName",
     "type": "string",
     "description": "Division short name (e.g., NL Central)",
-    "fillRate": 49,
+    "fillRate": 48,
     "premium": false
   },
   {
