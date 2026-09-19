@@ -19,9 +19,9 @@
   <!-- bars (Added, right axis) -->
   <rect x="59" y="234" width="28" height="6"
           rx="1" fill="#22c55eb3" />
-  <rect x="89" y="233" width="28" height="7"
+  <rect x="89" y="234" width="28" height="6"
           rx="1" fill="#22c55eb3" />
-  <rect x="119" y="230" width="28" height="10"
+  <rect x="119" y="231" width="28" height="9"
           rx="1" fill="#22c55eb3" />
   <rect x="149" y="232" width="28" height="8"
           rx="1" fill="#22c55eb3" />
@@ -49,7 +49,7 @@
           rx="1" fill="#22c55eb3" />
   <rect x="509" y="237" width="28" height="3"
           rx="1" fill="#22c55eb3" />
-  <rect x="539" y="237" width="28" height="3"
+  <rect x="539" y="238" width="28" height="2"
           rx="1" fill="#22c55eb3" />
   <rect x="569" y="237" width="28" height="3"
           rx="1" fill="#22c55eb3" />
@@ -70,11 +70,11 @@
   <rect x="809" y="73" width="28" height="167"
           rx="1" fill="#22c55eb3" />
   <!-- line (Total, left axis) -->
-  <polyline points="73,240 103,235 133,229 163,223 193,219 223,213 253,209 283,206 313,204 343,201 373,200 403,198 433,196 463,194 493,192 523,190 553,188 583,187 613,184 643,180 673,178 703,174 733,171 763,168 793,166 823,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+  <polyline points="73,240 103,236 133,229 163,224 193,220 223,213 253,210 283,207 313,204 343,202 373,200 403,199 433,197 463,195 493,193 523,191 553,189 583,188 613,185 643,182 673,179 703,175 733,172 763,169 793,167 823,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
   <!-- left y-axis labels (Total) -->
   <text x="52" y="56" text-anchor="end"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
-           >14k</text>
+           >15k</text>
   <text x="52" y="149" text-anchor="end"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
            >9k</text>
