@@ -17,7 +17,7 @@
   <line x1="58" y1="236" x2="848" y2="236"
            stroke="#e1e4e8" stroke-width="1" stroke-dasharray="4,3" />
   <!-- bars (Added, right axis) -->
-  <rect x="59" y="229" width="28" height="11"
+  <rect x="59" y="230" width="28" height="10"
           rx="1" fill="#22c55eb3" />
   <rect x="89" y="223" width="28" height="17"
           rx="1" fill="#22c55eb3" />
@@ -51,21 +51,21 @@
           rx="1" fill="#22c55eb3" />
   <rect x="539" y="234" width="28" height="6"
           rx="1" fill="#22c55eb3" />
-  <rect x="569" y="228" width="28" height="12"
+  <rect x="569" y="229" width="28" height="11"
           rx="1" fill="#22c55eb3" />
   <rect x="599" y="233" width="28" height="7"
           rx="1" fill="#22c55eb3" />
-  <rect x="629" y="231" width="28" height="9"
+  <rect x="629" y="232" width="28" height="8"
           rx="1" fill="#22c55eb3" />
   <rect x="659" y="235" width="28" height="5"
           rx="1" fill="#22c55eb3" />
-  <rect x="689" y="118" width="28" height="122"
+  <rect x="689" y="119" width="28" height="121"
           rx="1" fill="#22c55eb3" />
-  <rect x="719" y="221" width="28" height="19"
+  <rect x="719" y="222" width="28" height="18"
           rx="1" fill="#22c55eb3" />
   <rect x="749" y="229" width="28" height="11"
           rx="1" fill="#22c55eb3" />
-  <rect x="779" y="227" width="28" height="13"
+  <rect x="779" y="228" width="28" height="12"
           rx="1" fill="#22c55eb3" />
   <rect x="809" y="73" width="28" height="167"
           rx="1" fill="#22c55eb3" />
