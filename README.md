@@ -1,6 +1,6 @@
 # SeatGeek Events & Ticket Listings Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--10--22-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-121.4M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/seatgeek)
+![Updated](https://img.shields.io/badge/updated-2026--10--23-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-119.6M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/seatgeek)
 
 Daily sample of SeatGeek events, ticket listings, performers, and venues with Deal Score ratings, section-level seating, delivery types, and cross-platform IDs.
 
@@ -21,7 +21,7 @@ Daily sample of SeatGeek events with type, taxonomy, venue and performer IDs, sc
 
 
 
-> **14,981** total records from 2025-10-05 to 2026-10-11, **up to 14,981** rows in this sample (100.0% of full dataset).
+> **14,982** total records from 2025-10-05 to 2026-10-18, **up to 14,982** rows in this sample (100.0% of full dataset).
 > Exported as one file per day, up to 1,000 rows each, last 30 days retained.
 
 ![Data Growth](events/chart-growth.svg)
@@ -66,7 +66,7 @@ Daily sample of SeatGeek events with type, taxonomy, venue and performer IDs, sc
 | `taxonomyName` | `string` | 100% | Top-level category (sports, concerts, theater) |
 | `taxonomySubName` | `string` | 100% | Sub-category (baseball, basketball, hockey, football) |
 | `ticketmasterId` | `string` | 40% | Ticketmaster event ID (for cross-platform matching) |
-| `stubhubId` | `string` | 51% | StubHub event ID (for cross-platform matching) |
+| `stubhubId` | `string` | 52% | StubHub event ID (for cross-platform matching) |
 | `integratedProvider` | `string` | 58% | Integrated ticket provider (OPEN, TICKETMASTER, TDC) |
 | `integratedProviderId` | `string` | 58% | Provider-specific event ID |
 | `isMapped` | `bool` | 100% | Venue has seat map available |
@@ -88,7 +88,7 @@ Daily sample of SeatGeek events with type, taxonomy, venue and performer IDs, sc
 
 | Value | Count | Share |
 | --- | --- | --- |
-| mlb | 5,840 | `████████░░░░░░░░░░░░` 39.0% |
+| mlb | 5,841 | `████████░░░░░░░░░░░░` 39.0% |
 | nhl | 3,060 | `████░░░░░░░░░░░░░░░░` 20.4% |
 | nba | 2,980 | `████░░░░░░░░░░░░░░░░` 19.9% |
 | stadium_tours | 2,272 | `███░░░░░░░░░░░░░░░░░` 15.2% |
@@ -104,7 +104,7 @@ Daily sample of SeatGeek events with type, taxonomy, venue and performer IDs, sc
 
 | Value | Count | Share |
 | --- | --- | --- |
-| sports | 14,981 | `████████████████████` 100.0% |
+| sports | 14,982 | `████████████████████` 100.0% |
 
 </details>
 
@@ -115,7 +115,7 @@ Daily sample of SeatGeek events with type, taxonomy, venue and performer IDs, sc
 
 | Value | Count | Share |
 | --- | --- | --- |
-| normal | 14,981 | `████████████████████` 100.0% |
+| normal | 14,982 | `████████████████████` 100.0% |
 
 </details>
 
@@ -131,7 +131,7 @@ Daily sample of SeatGeek ticket listings with section, row, quantity, delivery t
 
 
 
-> **121,375,756** total records from 2025-10-05 to 2026-10-18, **up to 30,000** rows in this sample (0.02% of full dataset).
+> **119,541,005** total records from 2025-10-05 to 2026-10-18, **up to 30,000** rows in this sample (0.03% of full dataset).
 > Exported as one file per day, up to 1,000 rows each, last 30 days retained.
 
 ![Data Growth](event-listings/chart-growth.svg)
@@ -173,11 +173,11 @@ Daily sample of SeatGeek ticket listings with section, row, quantity, delivery t
 
 | Value | Count | Share |
 | --- | --- | --- |
-| exchange | 118,448,777 | `████████████████████` 97.6% |
-| marketplace | 1,413,250 | `░░░░░░░░░░░░░░░░░░░░` 1.2% |
-| open | 914,599 | `░░░░░░░░░░░░░░░░░░░░` 0.8% |
-| open_marketplace | 542,017 | `░░░░░░░░░░░░░░░░░░░░` 0.4% |
-| fan_to_fan | 57,113 | `░░░░░░░░░░░░░░░░░░░░` 0.0% |
+| exchange | 116,680,915 | `████████████████████` 97.6% |
+| marketplace | 1,414,395 | `░░░░░░░░░░░░░░░░░░░░` 1.2% |
+| open | 870,198 | `░░░░░░░░░░░░░░░░░░░░` 0.7% |
+| open_marketplace | 519,221 | `░░░░░░░░░░░░░░░░░░░░` 0.4% |
+| fan_to_fan | 56,276 | `░░░░░░░░░░░░░░░░░░░░` 0.0% |
 
 </details>
 
@@ -188,14 +188,14 @@ Daily sample of SeatGeek ticket listings with section, row, quantity, delivery t
 
 | Value | Count | Share |
 | --- | --- | --- |
-| electronic | 63,849,508 | `███████████░░░░░░░░░` 52.6% |
-| mobile_transfer | 37,510,343 | `██████░░░░░░░░░░░░░░` 30.9% |
-| sg_app | 16,522,795 | `███░░░░░░░░░░░░░░░░░` 13.6% |
-| seatgeek_app | 3,209,009 | `█░░░░░░░░░░░░░░░░░░░` 2.6% |
-| shipped | 252,321 | `░░░░░░░░░░░░░░░░░░░░` 0.2% |
-| pdf | 31,071 | `░░░░░░░░░░░░░░░░░░░░` 0.0% |
+| electronic | 63,849,508 | `███████████░░░░░░░░░` 53.4% |
+| mobile_transfer | 35,767,341 | `██████░░░░░░░░░░░░░░` 29.9% |
+| sg_app | 16,522,795 | `███░░░░░░░░░░░░░░░░░` 13.8% |
+| seatgeek_app | 3,122,840 | `█░░░░░░░░░░░░░░░░░░░` 2.6% |
+| shipped | 249,883 | `░░░░░░░░░░░░░░░░░░░░` 0.2% |
+| pdf | 27,942 | `░░░░░░░░░░░░░░░░░░░░` 0.0% |
 | local | 662 | `░░░░░░░░░░░░░░░░░░░░` 0.0% |
-| willcall | 47 | `░░░░░░░░░░░░░░░░░░░░` 0.0% |
+| willcall | 34 | `░░░░░░░░░░░░░░░░░░░░` 0.0% |
 
 </details>
 
@@ -211,7 +211,7 @@ SeatGeek performers including teams, artists, and acts with type, taxonomy, divi
 
 
 
-> **263** total records from 2025-10-05 to 2026-09-27, **264** rows in this sample (100.4% of full dataset).
+> **264** total records from 2025-10-05 to 2026-10-18, **264** rows in this sample (100.0% of full dataset).
 > Exported as a single file, overwritten daily.
 
 ![Data Growth](performers/chart-growth.svg)
@@ -255,14 +255,14 @@ SeatGeek performers including teams, artists, and acts with type, taxonomy, divi
 
 | Value | Count | Share |
 | --- | --- | --- |
-| nfl | 68 | `█████░░░░░░░░░░░░░░░` 25.9% |
-| nba | 50 | `████░░░░░░░░░░░░░░░░` 19.0% |
-| mlb | 50 | `████░░░░░░░░░░░░░░░░` 19.0% |
+| nfl | 68 | `█████░░░░░░░░░░░░░░░` 25.8% |
+| nba | 50 | `████░░░░░░░░░░░░░░░░` 18.9% |
+| mlb | 50 | `████░░░░░░░░░░░░░░░░` 18.9% |
 | nhl | 49 | `████░░░░░░░░░░░░░░░░` 18.6% |
 | baseball | 25 | `██░░░░░░░░░░░░░░░░░░` 9.5% |
+| band | 6 | `░░░░░░░░░░░░░░░░░░░░` 2.3% |
 | stadium_tours | 6 | `░░░░░░░░░░░░░░░░░░░░` 2.3% |
 | minor_league_baseball | 6 | `░░░░░░░░░░░░░░░░░░░░` 2.3% |
-| band | 5 | `░░░░░░░░░░░░░░░░░░░░` 1.9% |
 | ncaa_baseball | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.8% |
 | basketball | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.8% |
 
@@ -348,7 +348,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"averagePrice","op":"gt","value":0},{"sort":"averagePrice DESC"}]`
 
-[Sports Events](https://rebrowser.net/products/datasets/seatgeek/events/views/sports-events) — 14,771 records
+[Sports Events](https://rebrowser.net/products/datasets/seatgeek/events/views/sports-events) — 14,785 records
 
 ↳ `[{"field":"taxonomyName","op":"is","value":"sports"},{"sort":"datetimeUtc ASC"}]`
 
@@ -356,7 +356,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"isOpen","op":"isTrue"},{"sort":"datetimeUtc ASC"}]`
 
-[MLB Baseball Events](https://rebrowser.net/products/datasets/seatgeek/events/views/mlb-events) — 5,776 records
+[MLB Baseball Events](https://rebrowser.net/products/datasets/seatgeek/events/views/mlb-events) — 5,790 records
 
 ↳ `[{"field":"type","op":"is","value":"mlb"},{"sort":"datetimeUtc ASC"}]`
 
@@ -372,23 +372,23 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Event Listings
 
 
-[Listings with Deal Score](https://rebrowser.net/products/datasets/seatgeek/event-listings/views/listings-with-deal-score) — 95,678,796 records
+[Listings with Deal Score](https://rebrowser.net/products/datasets/seatgeek/event-listings/views/listings-with-deal-score) — 96,753,098 records
 
 ↳ `[{"field":"dealScore","op":"gt","value":0},{"sort":"dealScore DESC"}]`
 
-[Best Deal Listings (Deal Score 8+)](https://rebrowser.net/products/datasets/seatgeek/event-listings/views/best-deal-listings) — 41,638,118 records
+[Best Deal Listings (Deal Score 8+)](https://rebrowser.net/products/datasets/seatgeek/event-listings/views/best-deal-listings) — 42,179,668 records
 
 ↳ `[{"field":"dealScore","op":"gte","value":8},{"sort":"dealScore DESC"}]`
 
-[Listings by Price (Low to High)](https://rebrowser.net/products/datasets/seatgeek/event-listings/views/listings-by-price-low) — 96,019,056 records
+[Listings by Price (Low to High)](https://rebrowser.net/products/datasets/seatgeek/event-listings/views/listings-by-price-low) — 97,207,464 records
 
 ↳ `[{"sort":"price ASC"}]`
 
-[Listings by Price (High to Low)](https://rebrowser.net/products/datasets/seatgeek/event-listings/views/listings-by-price-high) — 95,372,081 records
+[Listings by Price (High to Low)](https://rebrowser.net/products/datasets/seatgeek/event-listings/views/listings-by-price-high) — 97,124,009 records
 
 ↳ `[{"sort":"price DESC"}]`
 
-[Electronic Delivery Listings](https://rebrowser.net/products/datasets/seatgeek/event-listings/views/electronic-delivery-listings) — 63,848,767 records
+[Electronic Delivery Listings](https://rebrowser.net/products/datasets/seatgeek/event-listings/views/electronic-delivery-listings) — 63,847,861 records
 
 ↳ `[{"field":"deliveryType","op":"is","value":"electronic"},{"sort":"price ASC"}]`
 
@@ -428,7 +428,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Venues
 
 
-[Venues by Capacity](https://rebrowser.net/products/datasets/seatgeek/venues/views/venues-by-capacity) — 149 records
+[Venues by Capacity](https://rebrowser.net/products/datasets/seatgeek/venues/views/venues-by-capacity) — 146 records
 
 ↳ `[{"field":"capacity","op":"gt","value":0},{"sort":"capacity DESC"}]`
 
