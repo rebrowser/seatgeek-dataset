@@ -94,7 +94,7 @@
     "name": "homeVenueId",
     "type": "float",
     "description": "Home venue ID (for teams)",
-    "fillRate": 55,
+    "fillRate": 54,
     "premium": false
   },
   {
@@ -143,7 +143,7 @@
     "name": "taxonomySubName",
     "type": "string",
     "description": "Sub-category (baseball, basketball, hockey, football)",
-    "fillRate": 98,
+    "fillRate": 97,
     "premium": false
   }
 ]
